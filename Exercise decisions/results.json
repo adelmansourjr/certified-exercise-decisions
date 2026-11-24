@@ -1,0 +1,79 @@
+{
+  "independent_runs": 16,
+  "panels": {
+    "matched_range": {
+      "means": {
+        "price_target": {
+          "regret": 7.15162878595637e-05,
+          "pricing_rmse": 0.0096095419593337,
+          "wrong_itm_rate": 0.19039579522497468,
+          "near_boundary_regret": 0.00016974908335155856,
+          "boundary_count": 328.625
+        },
+        "continuation_target": {
+          "regret": 6.787491473102123e-05,
+          "pricing_rmse": 0.009587674446813728,
+          "wrong_itm_rate": 0.18831713231250025,
+          "near_boundary_regret": 0.00016214273691362975,
+          "boundary_count": 328.625
+        },
+        "coarse_tree": {
+          "regret": 3.7584009004359363e-06,
+          "pricing_rmse": 0.0006382867947840958,
+          "wrong_itm_rate": 0.021961030362253275,
+          "near_boundary_regret": 1.4873194134831191e-05,
+          "boundary_count": 328.625
+        }
+      },
+      "continuation_regret_reduction_against": {
+        "price_target": [
+          3.6413731285424656e-06,
+          3.93008854331693e-07,
+          8.134470852168118e-06
+        ],
+        "coarse_tree": [
+          -6.411651383058528e-05,
+          -7.090780387889953e-05,
+          -5.738261666927351e-05
+        ]
+      }
+    },
+    "higher_volatility": {
+      "means": {
+        "price_target": {
+          "regret": 0.0004678602921428477,
+          "pricing_rmse": 0.01577554427990696,
+          "wrong_itm_rate": 0.08508050973444255,
+          "near_boundary_regret": 0.000577505875382354,
+          "boundary_count": 37.4375
+        },
+        "continuation_target": {
+          "regret": 0.0004559332652421674,
+          "pricing_rmse": 0.015737265846210127,
+          "wrong_itm_rate": 0.08374325768122275,
+          "near_boundary_regret": 0.0005665148675542452,
+          "boundary_count": 37.4375
+        },
+        "coarse_tree": {
+          "regret": 3.120758577246069e-07,
+          "pricing_rmse": 0.0014677087068729901,
+          "wrong_itm_rate": 0.0046182234398853515,
+          "near_boundary_regret": 1.0829174964490403e-05,
+          "boundary_count": 37.4375
+        }
+      },
+      "continuation_regret_reduction_against": {
+        "price_target": [
+          1.1927026900680237e-05,
+          1.1033847788155018e-07,
+          2.706299496611376e-05
+        ],
+        "coarse_tree": [
+          -0.0004556211893844429,
+          -0.0006004847274009538,
+          -0.00032436324590848133
+        ]
+      }
+    }
+  }
+}

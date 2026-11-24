@@ -1,0 +1,17 @@
+{
+  "python": "3.12.8",
+  "numpy": "2.5.4",
+  "scipy": "1.18.1",
+  "peak_RSS_MiB": 120.125,
+  "median_solver_seconds_per_1024": {
+    "adaptive_convex": 0.002580396001576446,
+    "fixed_convex_19": 0.0012333539925748482,
+    "hermite_19": 0.0008124999876599759,
+    "hermite_adaptive_7_32": 0.0008710625115782022
+  },
+  "sha256": {
+    "Protocol.md": "c91bda65be67f081a90c7931a07169a4571bcee5d64e66c37a49f9c8240c8c22",
+    "run.py": "a3c900ad500ecd01b184a399a8866b2620e8130fcbb3ee0656369ff8ad8b60c0",
+    "results.json": "8ab6ea3a0db03c03e009dbc0047fcabbb2dcc989dda9b14c61ef74230c72d31f"
+  }
+}
